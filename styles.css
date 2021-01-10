@@ -1,0 +1,15 @@
+h1 {
+  color: white;
+}
+h2 {
+  color: black;
+  border-bottom: 1px solid black;
+}
+header {
+  align-items: center;
+  background-color: pink;
+}
+footer {
+  align-items: center;
+  background-color: pink;
+}
