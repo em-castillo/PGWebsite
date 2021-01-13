@@ -49,9 +49,10 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-#currentdate {
+#lastUpdated {
   color: #532b4b;
-  margin-left: 200px;
+  text-align: center;
+  display: block;
 }
 footer {
   background-color: rgb(199, 130, 143);
@@ -59,4 +60,5 @@ footer {
   margin-right: 250px;
   padding: 25px;
   border-radius: 15px;
+  display: block;
 }
