@@ -1,8 +1,8 @@
 h1 {
   color: white;
-  font-size: 34px;
-  text-align: center;
-  margin-right: 170px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 30px;
 }
 h2 {
   color: black;
@@ -23,14 +23,9 @@ li {
   color: white;
 }
 img {
-  float: right;
-  position: relative;
-  top: -50px;
   width: 150 px;
   height: 210px;
-  box-shadow: black 3px 3px 10px 2px;
-  margin-right: 20px;
-  border-radius: 5px;
+  margin-top: -60px;
 }
 header {
   text-align: center;
@@ -38,13 +33,12 @@ header {
   margin-left: 250px;
   margin-right: 250px;
   padding: 10px;
-  border-radius: 15px;
 }
 main {
   text-align: left;
   margin-left: 250px;
   margin-right: 250px;
-  padding-left: 50px;
+  padding-left: 30px;
   padding-right: 50px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -59,6 +53,6 @@ footer {
   margin-left: 250px;
   margin-right: 250px;
   padding: 25px;
-  border-radius: 15px;
+
   display: block;
 }
