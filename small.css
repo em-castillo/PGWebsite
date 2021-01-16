@@ -1,8 +1,5 @@
 h1 {
   color: white;
-  font-size: 30px;
-  text-align: left;
-  margin-left: 30px;
 }
 h2 {
   color: black;
@@ -25,23 +22,14 @@ li {
 img {
   width: 150 px;
   height: 210px;
-  margin-top: -60px;
 }
 header {
-  text-align: center;
   background-color: rgb(199, 130, 143);
-  margin-left: 250px;
-  margin-right: 250px;
-  padding: 10px;
+  text-align: center;
+  display: block;
 }
 main {
   text-align: left;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding-left: 30px;
-  padding-right: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 #lastUpdated {
   color: #532b4b;
@@ -50,9 +38,6 @@ main {
 }
 footer {
   background-color: rgb(199, 130, 143);
-  margin-left: 250px;
-  margin-right: 250px;
-  padding: 25px;
-
+  text-align: center;
   display: block;
 }
