@@ -3,11 +3,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* add this if normalize.css is not included
-html {
-    -ms-text-size-adjust: 100%; 
-    -webkit-text-size-adjust: 100%;}
-    */
+/** add this if normalize.css is not included
+ *  html {
+ *  -ms-text-size-adjust: 100%; 
+ * -webkit-text-size-adjust: 100%;}
+ */
 
 /* body rules here */
 body {
