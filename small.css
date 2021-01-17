@@ -30,8 +30,11 @@ header {
 main {
   text-align: left;
 }
+p {
+  font-size: 18px;
+}
 #lastUpdated {
-  color: rgb(53, 48, 48);
+  color: rgb(241, 223, 223);
   text-align: center;
   display: block;
 }
