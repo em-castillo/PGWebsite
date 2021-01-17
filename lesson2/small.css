@@ -9,6 +9,7 @@
 }
 h1 {
   color: white;
+  font-size: 36px;
 }
 h2 {
   color: black;
@@ -57,4 +58,5 @@ footer {
   text-align: center;
   padding: 0.5rem 2%;
   font-family: "Prata", serif;
+  font-size: 19px;
 }
