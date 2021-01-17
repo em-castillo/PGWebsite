@@ -1,4 +1,4 @@
-let date = new Date();
+let date = new Date(document.lastModified);
 let year =  date.getFullYear();
 document.getElementById("actualYear").textContent = year;
 
