@@ -9,7 +9,6 @@
 }
 h1 {
   color: white;
-  font-size: 36px;
 }
 h2 {
   color: black;
@@ -18,7 +17,7 @@ h3 {
   color: rgba(75, 73, 74, 0.911);
 }
 header {
-  background-color: rgb(199, 130, 143);
+  background-color: rgba(192, 90, 109, 0.906);
   text-align: center;
   display: block;
   padding: 0.5rem 2%;
@@ -53,10 +52,9 @@ p {
   padding: 0.5rem 2%;
 }
 footer {
-  background-color: rgb(199, 130, 143);
+  background-color: rgba(192, 90, 109, 0.906);
   display: block;
   text-align: center;
   padding: 0.5rem 2%;
   font-family: "Prata", serif;
-  font-size: 19px;
 }
