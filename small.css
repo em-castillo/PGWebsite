@@ -23,7 +23,7 @@ img {
   width: 25%;
 }
 header {
-  background-color: rgb(199, 130, 143);
+  background-color: rgb(194, 109, 124);
   text-align: center;
   display: block;
 }
@@ -31,12 +31,12 @@ main {
   text-align: left;
 }
 #lastUpdated {
-  color: #532b4b;
+  color: rgb(53, 48, 48);
   text-align: center;
   display: block;
 }
 footer {
-  background-color: rgb(199, 130, 143);
+  background-color: rgb(194, 109, 124);
   text-align: center;
   display: block;
 }
