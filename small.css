@@ -23,7 +23,7 @@ img {
   width: 25%;
 }
 header {
-  background-color: rgb(194, 109, 124);
+  background-color: rgba(192, 90, 109, 0.906);
   text-align: center;
   display: block;
 }
@@ -36,7 +36,7 @@ main {
   display: block;
 }
 footer {
-  background-color: rgb(194, 109, 124);
+  background-color: rgba(192, 90, 109, 0.906);
   text-align: center;
   display: block;
 }
