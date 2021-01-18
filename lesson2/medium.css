@@ -6,8 +6,10 @@
   header,
   main,
   footer {
+    padding: 0.5rem 2%;
     border-radius: 15px;
-    margin: 10px;
+    max-width: 80rem;
+    margin: auto;
   }
 }
 /* end of media query */
