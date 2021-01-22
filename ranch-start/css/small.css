@@ -25,11 +25,13 @@ header h1 {
 }
 header h2 {
   margin: 0;
+  padding: 6px;
 }
 
 /* navigation rules here */
 nav {
   background-color: #111;
+  padding: 8px;
 }
 nav ul {
   margin: 0;
