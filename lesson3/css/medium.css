@@ -10,6 +10,7 @@
   }
 
   nav ul {
+    flex-direction: row;
     margin-left: 2%;
   }
   nav ul li {
