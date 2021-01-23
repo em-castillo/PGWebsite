@@ -26,11 +26,13 @@ header img {
 header h1 {
   margin: 0;
   font-size: 1.3rem;
+  font-family: "Prata", serif;
 }
 header h2 {
   margin: 0;
   font-weight: normal;
   font-size: 1rem;
+  font-family: "Open Sans", serif;
 }
 
 nav {
@@ -48,8 +50,7 @@ nav ul {
 nav ul li a {
   display: block;
   color: #ffffff;
-  padding: 0.5rem 0;
-
+  padding: 1rem 0;
   text-decoration: none;
   font-size: 1rem;
   text-align: center;
@@ -58,10 +59,12 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #c1e7eb;
   color: #333;
+  padding: 1rem;
 }
 nav ul li.active a {
   background-color: #2979a2;
   color: #ffffff;
+  padding: 1rem;
 }
 
 main {
@@ -79,4 +82,12 @@ footer {
   content: "";
   display: table;
   clear: both;
+}
+
+.titulo {
+  font-family: "Prata", serif;
+}
+
+.texto {
+  font-family: "Open Sans", sans-serif;
 }
