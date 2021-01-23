@@ -32,7 +32,6 @@ header h2 {
 nav {
   background-color: #111;
   padding: 8px;
-  display: block;
 }
 nav ul {
   margin: 0;
@@ -40,6 +39,7 @@ nav ul {
 }
 nav li {
   list-style-type: none;
+  padding: 8px;
 }
 nav li.active {
   background-color: #333;
