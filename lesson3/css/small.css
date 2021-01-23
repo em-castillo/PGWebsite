@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  padding: 0.5rem 2%;
+  padding: 1.2rem 2%;
   background-color: #b99ac8;
 }
 header img {
@@ -25,13 +25,13 @@ header img {
 }
 header h1 {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: "Prata", serif;
 }
 header h2 {
   margin: 0;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Open Sans", serif;
 }
 
@@ -52,7 +52,7 @@ nav ul li a {
   color: #ffffff;
   padding: 1rem 0;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 16px;
   text-align: center;
 }
 
