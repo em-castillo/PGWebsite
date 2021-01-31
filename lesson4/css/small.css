@@ -1,0 +1,113 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  padding: 1.3rem 2%;
+  background-color: #b99ac8;
+}
+
+header img {
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Prata", serif;
+}
+header h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-family: "Open Sans", serif;
+}
+
+nav {
+  background-color: #99e4ec;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #444242;
+  padding: 1rem 0;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #2979a2;
+  color: #ffffff;
+  padding: 1rem;
+}
+nav ul li.active a {
+  background-color: #4ec5cf;
+  color: #333;
+  padding: 1rem;
+}
+
+nav ul.hide {
+  display: none;
+}
+
+nav button {
+  background-color: #99e4ec;
+  border: none;
+  padding: 0.7rem;
+}
+
+main {
+  padding: 0 2%;
+  min-height: 10rem;
+}
+
+.placeholder {
+  background-color: #99e4ef;
+  margin: 5px;
+  border: 0.2rem solid #4ec5cf;
+  padding: 20px;
+  font-family: "Open Sans", serif;
+}
+
+h1 {
+  font-family: "Prata", serif;
+}
+
+div {
+  font-family: "Open Sans", serif;
+}
+
+footer {
+  background-color: #b99ac8;
+  padding: 0.5rem 2%;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
