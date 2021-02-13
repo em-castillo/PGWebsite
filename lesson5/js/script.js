@@ -28,3 +28,19 @@ const year = todaysdate.getFullYear();
 const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + " " + year;
 const options = {weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'};
 document.getElementById("currentDate").textContent = currentdate;
+
+//saturday, 13 february 2021
+const today = new Date();
+      console.log(today);
+
+      const dayNumber = today.getDay();
+      console.log(dayNumber);
+
+      //show message at the top on determined day
+      const element = document.getElementById("message");
+
+      if (dayNumber == 5) {
+        element.classList.add("showme");
+      } else {
+        element.classList.add("hideme");
+      }
