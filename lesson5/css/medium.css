@@ -66,6 +66,11 @@
     height: auto;
   }
 
+  section.article {
+    display: block;
+    margin-bottom: 50px;
+  }
+
   section.article img {
     width: 50%;
     float: right;

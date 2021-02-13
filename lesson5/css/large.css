@@ -6,5 +6,10 @@
     max-width: 64rem;
     margin: auto;
   }
+
+  section.article img {
+    width: 40%;
+    margin-top: -50px;
+  }
 }
 /* end of media query */
