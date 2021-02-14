@@ -107,8 +107,9 @@ section.hero {
 
 section.hero picture.image {
   display: block;
-  width: 100%;
+  width: 80%;
   margin-bottom: 50px;
+  padding-right: 800px;
 }
 
 div.summary {
