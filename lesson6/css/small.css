@@ -105,11 +105,10 @@ section.hero {
   position: relative;
 }
 
-section.hero picture.image {
+section.hero picture.image img {
   display: block;
-  width: 80%;
+  width: 100%;
   margin-bottom: 50px;
-  padding-right: 800px;
 }
 
 div.summary {
