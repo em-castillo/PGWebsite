@@ -45,9 +45,4 @@ const today = new Date();
         element.classList.add("hideme");
       }
 
-      //font
-WebFont.load({
-  google: {
-    families: ["Opens Sans", "Prata"],
-  },
-});
+      
