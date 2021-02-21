@@ -1,0 +1,56 @@
+@media only screen and (min-width: 35rem) {
+  header img {
+    width: auto;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li {
+    display: flex;
+    float: left;
+    flex: 1 1 100%;
+  }
+
+  nav ul li a {
+    padding: 1rem 1rem;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  nav ul.hide {
+    display: block;
+  }
+
+  div.summary {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  h2.title {
+    display: initial;
+    padding: 150px 0;
+  }
+
+  h1.gallery {
+    font-family: "Prata", serif;
+    text-align: center;
+    display: block;
+    margin: 40px;
+  }
+
+  div.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} /* end of media query */

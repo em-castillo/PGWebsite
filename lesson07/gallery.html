@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Wheater Site" />
+    <meta name="author" content="Emily Castillo" />
+    <title>Weather Site: Solstice Season - Preston</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <img src="images/logo.png" alt="logo" />
+      <h1>Solstice Season</h1>
+      <h2>The Weather Planner</h2>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navigation" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishheaven.html">Fish Heaven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main class="clearfix">
+      <div id="message">
+        "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion."
+      </div>
+      <h1 class="gallery">Weather Gallery</h1>
+      <div class="pictures">
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/cloudy.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Cloudy sky</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/sunny.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Blue sunny sky with clouds</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/ligthning.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Ligthning in the night</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/rainbow.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Rainbow over the lake</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/rainy.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Pine branches with rain drops</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/sunset.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Cloudy sunset</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/snowy.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Snowy day</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/tornado.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Storm with tornado</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/placeholder.jpg"
+            data-src="images/foggy.jpg"
+            width="300"
+            loading="lazy"
+            alt="placeholder image"
+          />
+          <figcaption>Foggy morning</figcaption>
+        </figure>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2021 | Emily Castillo | <span id="currentDate"></span>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Opens Sans", "Prata"],
+        },
+      });
+    </script>
+    <script src="js/load.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
