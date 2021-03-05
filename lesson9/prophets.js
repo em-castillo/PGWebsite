@@ -15,16 +15,31 @@ fetch(requestURL) //fetch method, URL is argument
     prophets.forEach(prophet => {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
+        let image = document.createElement("img");
+        let birthDate = document.createElement("p");
+        let birthPlace = document.createElement("p");
+        
 
         //use template literals ``
         h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
+        birthPlace.innerHTML = `Place of birth: ${prophet.birthplace}`;
+        birthDate.innerHTML = `Date of birth: ${prophet.birthdate}`;
+        image.setAttribute("src", `${prophet.imageurl}`);
+        image.setAttribute(
+        "alt",`Picture of the prophet ${prophet.name} ${prophet.lastname}`
+      );
+        image.setAttribute("loading", "lazy");
+
 
         card.append(h2);
         cards.append(card);  
-
-        
+        card.append(image);
+        card.append(birthPlace);
+        card.append(birthDate);
 
     });
+        
+
   });
 
   

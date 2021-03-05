@@ -1,4 +1,73 @@
-.cards {
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 0.5rem 2%;
+  background-color: #9ac8c4;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+}
+
+p {
+  font-family: "Arimo", sans-serif;
+  font-size: 18px;
+}
+
+div.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240 px 1fr));
+  grid-template-columns: 1fr;
+}
+
+section {
+  background-color: rgb(247, 238, 211);
+  padding: 2rem;
+  text-align: center;
+}
+
+section img {
+  align-items: center;
+  border-radius: 2rem;
+}
+
+footer {
+  background-color: #9ac8c4;
+  padding: 1rem 2%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 35rem) {
+  div.cards {
+    display: grid;
+    grid-gap: 6rem;
+    grid-column: 1fr 1fr;
+    margin: auto 1rem;
+  }
+}
+
+@media only screen and (min-width: 64rem) {
+  div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  main,
+  footer {
+    margin: 2rem auto;
+  }
 }
