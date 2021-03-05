@@ -14,7 +14,9 @@ header {
   background-color: #9ac8c4;
   text-align: center;
 }
-
+main {
+  padding: 0.5rem 2%;
+}
 h1 {
   font-size: 40px;
   font-family: "Playfair Display", serif;
@@ -33,39 +35,44 @@ p {
 div.cards {
   display: grid;
   grid-template-columns: 1fr;
+  padding: 0.5rem 2%;
 }
 
 section {
   background-color: rgb(247, 238, 211);
-  padding: 2rem;
+  padding: 0;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 section img {
   align-items: center;
   border-radius: 2rem;
+  width: 75%;
+  height: auto;
 }
 
 footer {
   background-color: #9ac8c4;
-  padding: 1rem 2%;
+  padding: 1rem 40%;
   text-align: center;
 }
 
 @media only screen and (min-width: 35rem) {
   div.cards {
     display: grid;
-    grid-gap: 6rem;
-    grid-column: 1fr 1fr;
-    margin: auto 1rem;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media only screen and (min-width: 64rem) {
   div.cards {
     display: grid;
+    grid-gap: 1rem;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
   main,
   footer {
     margin: 2rem auto;
