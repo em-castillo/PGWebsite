@@ -18,5 +18,15 @@
     box-shadow: 10px 10px 35px rgb(65, 63, 63);
     display: block;
   }
+
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
 }
 /* end of media query */
