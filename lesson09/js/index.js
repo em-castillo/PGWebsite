@@ -32,7 +32,7 @@ fetch(requestURL) //fetch method, URL is argument
         yearFound.textContent = 'Year Founded: ' + towns[i].yearFounded;
         population.textContent ='Population: ' + towns[i].currentPopulation;;
         rainFall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall + ' in';
-        image.setAttribute('src', 'lesson09/images/'+towns[i].photo);
+        image.setAttribute('src', 'images/'+towns[i].photo);
         image.setAttribute('alt', towns[i].name + ', Idaho');
         image.setAttribute("loading", "lazy");
 
