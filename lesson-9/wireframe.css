@@ -1,0 +1,39 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 1.3rem 2%;
+  background-color: #b99ac8;
+}
+
+header img {
+  float: left;
+  margin-right: 10px;
+  width: 50px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: "Prata", serif;
+}
+header h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.3rem;
+  font-family: "Open Sans", serif;
+}
+
+footer {
+  background-color: #b99ac8;
+  padding: 0.5rem 2%;
+  text-align: center;
+}
