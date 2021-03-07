@@ -8,8 +8,12 @@
   div#cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 2rem;
-    padding: 0.5rem 2%;
+  }
+
+  #cards div {
+    display: block;
   }
 
   section.article img {
