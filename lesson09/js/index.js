@@ -20,10 +20,10 @@ fetch(requestURL) //fetch method, URL is argument
         let photo = document.createElement('figure');
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
-        let yearFound = document.createElement("p");
-        let population = document.createElement("p");
-        let rainFall = document.createElement("p");
-        let image = document.createElement("img");
+        let yearFound = document.createElement('p');
+        let population = document.createElement('p');
+        let rainFall = document.createElement('p');
+        let image = document.createElement('img');
         
 
         //use template literals ``
@@ -34,7 +34,7 @@ fetch(requestURL) //fetch method, URL is argument
         rainFall.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall + ' in';
         image.setAttribute('src', 'images/'+towns[i].photo);
         image.setAttribute('alt', towns[i].name + ', Idaho');
-        image.setAttribute("loading", "lazy");
+        image.setAttribute('loading', 'lazy');
 
 
         info.appendChild(h2);
@@ -49,8 +49,5 @@ fetch(requestURL) //fetch method, URL is argument
         
         document.getElementById('cards').appendChild(card);
         }
-       
-
     }
-        
   });

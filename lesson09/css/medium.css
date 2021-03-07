@@ -46,19 +46,16 @@
     padding-bottom: 40px;
   }
 
-  div#cards {
+  #cards div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
-    padding: 0.5rem 2%;
   }
-
   #cards div:nth-child(2) figure {
-    grid-column: 2;
+    grid-column: 1;
     grid-row: 1;
   }
   #cards div:nth-child(2) section {
-    grid-column: 1;
+    grid-column: 2;
   }
 
   section.article {
