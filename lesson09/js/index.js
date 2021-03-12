@@ -14,7 +14,7 @@ fetch(requestURL) //fetch method, URL is argument
     //const cards = document.querySelector('.cards');
 
     for (let i = 0; i < towns.length; i++) {
-        if (i == 1 || i == 5 || i == 6) {
+        if (towns.name == 'Fish Haven' || towns.name == 'Preston' || towns.name == 'Soda Springs') {
         let card = document.createElement('div');
         let info = document.createElement('section');
         let photo = document.createElement('figure');
