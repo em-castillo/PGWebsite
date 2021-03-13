@@ -42,7 +42,7 @@
 
   div.summary {
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 30px;
   }
 
@@ -53,7 +53,10 @@
 
   section.forecast {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+  }
+
+  div#fiveDays {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -61,7 +64,6 @@
 
   section.forecast div {
     text-align: center;
-    border: 1px solid #aaa;
   }
 
   section.forecast div img {
