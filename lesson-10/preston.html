@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Wheater Site" />
+    <meta name="author" content="Emily Castillo" />
+    <title>Weather Site: Solstice Season - Preston</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <img src="images/logo.png" alt="logo" />
+      <h1>Solstice Season</h1>
+      <h2>The Weather Planner</h2>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navigation" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li class="active"><a href="preston.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fishheaven.html">Fish Heaven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main class="clearfix">
+      <div id="message">
+        "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion."
+      </div>
+      <h1>Preston, ID</h1>
+      <section class="hero">
+        <picture class="image">
+          <source
+            media="(max-width:500px)"
+            srcset="images/heroimagesmall.jpeg"
+          />
+          <source
+            media="(max-width:800px)"
+            srcset="images/heroimagemedium.jpeg"
+          />
+
+          <img src="images/heroimagelarge.jpeg" alt="heroimage" />
+        </picture>
+        <div class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: Cloudy</p>
+          <p>Temperature: <span id="temp">48</span>&deg;</p>
+          <p id="chill">Wind Chill:</p>
+          <p>Humidity: 72%</p>
+          <p>Wind Speed: <span id="speed">10</span>mph</p>
+        </div>
+      </section>
+
+      <h2 class="title">Five Day Forecast</h2>
+      <section class="forecast">
+        <div>
+          <h5>Monday</h5>
+          <img src="images/rain.png" alt="rain" />
+          <p>40&deg;</p>
+        </div>
+        <div>
+          <h5>Tuesday</h5>
+          <img src="images/snow.png" alt="rain" />
+          <p>30&deg;</p>
+        </div>
+        <div>
+          <h5>Wednesday</h5>
+          <img src="images/sun.png" alt="rain" />
+          <p>75&deg;</p>
+        </div>
+        <div>
+          <h5>Thursday</h5>
+          <img src="images/sun.png" alt="rain" />
+          <p>70&deg;</p>
+        </div>
+        <div>
+          <h5>Friday</h5>
+          <img src="images/sun.png" alt="rain" />
+          <p>72&deg;</p>
+        </div>
+      </section>
+
+      <section class="article">
+        <h2>Article Title</h2>
+        <img src="images/article.jpg" alt="article image" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisi lacus
+          sed viverra tellus in hac habitasse. Sagittis eu volutpat odio
+          facilisis mauris sit amet massa vitae. Sed turpis tincidunt id aliquet
+          risus feugiat in ante. Diam vel quam elementum pulvinar etiam non.
+          Dictum non consectetur a erat nam at lectus. Ullamcorper sit amet
+          risus nullam eget felis. Vitae congue eu consequat ac felis donec. Et
+          magnis dis parturient montes. Tortor posuere ac ut consequat. Sed
+          faucibus turpis in eu mi bibendum neque. Netus et malesuada fames ac
+          turpis egestas integer.
+        </p>
+      </section>
+
+      <h2>Contact Us</h2>
+      <section class="contactus">
+        <div class="contact">
+          <h3>Address:</h3>
+          <p>
+            Solstice Season <br />
+            103 Main Street <br />
+            Preston, ID 83263
+          </p>
+        </div>
+        <div class="contact">
+          <h3>Phone:</h3>
+          <p>(801) 444-0022</p>
+          <h3>Email:</h3>
+          <p>solsticeseason.com</p>
+        </div>
+
+        <div class="iframe" style="width: 100%">
+          <iframe
+            src="https://maps.google.com/maps?width=100%25&amp;height=auto&amp;hl=en&amp;q=preston,%20id+(Solstice%20Season)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe
+          ><a href="https://www.maps.ie/route-planner.htm"></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      &copy; 2021 | Emily Castillo | <span id="currentDate"></span>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Opens Sans", "Prata"],
+        },
+      });
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+  </body>
+</html>
