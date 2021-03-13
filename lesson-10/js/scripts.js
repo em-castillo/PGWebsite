@@ -13,7 +13,7 @@ weekday[6] = "Saturday";
 
 //WEATHER SUMMARY
 //ADD the key and change units to imperial
-const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -68,7 +68,7 @@ fetch(apiURL)
           theTemp.textContent = weatherInfo.list[i].main.temp + "\xB0";
 
           let iconCode = weatherInfo.list[i].weather[0].icon;
-          let iconPath = 'http://openweathermap.org/img/w/' + iconCode + '.png';
+          let iconPath = '//openweathermap.org/img/w/' + iconCode + '.png';
           let theIcon = document.createElement('img');
           theIcon.src = iconPath;
         
