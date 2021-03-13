@@ -13,7 +13,7 @@ weekday[6] = "Saturday";
 
 //WEATHER SUMMARY
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
+const apiURL = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -22,14 +22,14 @@ fetch(apiURL)
     //Once it comes back, display it to the console.
     console.log(weatherInfo);
     
-    document.getElementById('current').innerHTML= weatherInfo.weather[0].description; //check console for name
-    document.getElementById('temp').innerHTML= weatherInfo.main.temp_max;
-    document.getElementById('humid').innerHTML= weatherInfo.main.humidity;
-    document.getElementById('speed').innerHTML= weatherInfo.wind.speed;
+    document.getElementById('current').innerHTML= weatherInfo.list[0].weather[0].description; //check console for name
+    document.getElementById('temp').innerHTML= weatherInfo.list[0].main.temp_max;
+    document.getElementById('humid').innerHTML= weatherInfo.list[0].main.humidity;
+    document.getElementById('speed').innerHTML= weatherInfo.list[0].wind.speed;
 
     //wind chill
-    const tempNumber =  weatherInfo.main.temp;
-    const speedNumber = weatherInfo.wind.speed;
+    const tempNumber =  weatherInfo.list[0].main.temp;
+    const speedNumber = weatherInfo.list[0].wind.speed;
 
     let windchill = 35.75 + (0.6215 * tempNumber) - (35.75 * Math.pow(speedNumber, 0.16)) + (0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
     windchill =  Math.round(windchill);
