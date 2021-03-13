@@ -1,3 +1,16 @@
+// FIVE DAY FORECAST
+const d = new Date();
+const todayDayNumber = d.getDay();
+
+const weekday = new Array(7);
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+
 //WEATHER SUMMARY
 //ADD the key and change units to imperial
 const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
@@ -27,32 +40,18 @@ fetch(apiURL)
     else{
       document.getElementById('chill').textContent =  "No Wind Chill Today";
 
-} 
-});
+}
     
 //FIVE DAY FORECAST
-const d = new Date();
+// const apiaURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
 
-const todayDayNumber = d.getDay();
-
-const weekday = new Array(7);
-weekday[0] = "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-
-const apiaURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
-
-fetch(apiaURL)
-  .then((response) => response.json())
-  .then((weatherInfo) => {
-    console.log(weatherInfo);
+// fetch(apiaURL)
+//   .then((response) => response.json())
+//   .then((weatherInfo) => {
+//     console.log(weatherInfo);
     
     let mylist = weatherInfo.list;
-      let forecastDayNumber = todayDayNumber;
+    let forecastDayNumber = todayDayNumber;
 
       for (i = 0; i < mylist.length; i++){
 
