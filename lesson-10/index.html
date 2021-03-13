@@ -42,41 +42,40 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <mainclass="clearfix">
-        <div id="message">
-          "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
-          park pavilion."
+    <main class="clearfix">
+      <div id="message">
+        "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion."
+      </div>
+      <h1>Preston, ID</h1>
+      <section class="hero">
+        <picture class="image">
+          <source
+            media="(max-width:500px)"
+            srcset="images/heroimagesmall.jpg"
+          />
+          <source
+            media="(max-width:800px)"
+            srcset="images/heroimagemedium.jpg"
+          />
+
+          <img src="images/heroimagelarge.jpg" alt="heroimage" />
+        </picture>
+        <div class="summary">
+          <h3>Weather Summary</h3>
+          <p>Currently: <span id="current">00</span></p>
+          <p>High: <span id="temp">00</span>&deg;</p>
+          <p><span id="chill">00</span></p>
+          <p>Humidity: <span id="humid"></span>%</p>
+          <p>Wind Speed: <span id="speed">xx</span>mph</p>
         </div>
-        <h1>Preston, ID</h1>
-        <section class="hero">
-          <picture class="image">
-            <source
-              media="(max-width:500px)"
-              srcset="images/heroimagesmall.jpg"
-            />
-            <source
-              media="(max-width:800px)"
-              srcset="images/heroimagemedium.jpg"
-            />
-  
-            <img src="images/heroimagelarge.jpg" alt="heroimage" />
-          </picture>
-          <div class="summary">
-            <h3>Weather Summary</h3>
-            <p>Currently: <span id="current">00</span></p>
-            <p>High: <span id="temp">00</span>&deg;</p>
-            <p> <span id="chill">00</span></p>
-            <p>Humidity: <span id="humid"></span>%</p>
-            <p>Wind Speed: <span id="speed">xx</span>mph</p>
-          </div>
-        </section>
+      </section>
 
-        <h2 class="title">Five Day Forecast</h2>
-        <section class="forecast">
-            <div id="fiveDays"></div>
-            </section>
+      <h2 class="title">Five Day Forecast</h2>
+      <section class="forecast">
+        <div id="fiveDays"></div>
+      </section>
 
-      
       <img
         id="weather_icon"
         src="images/placeholder.png"
