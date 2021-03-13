@@ -1,6 +1,6 @@
 //WEATHER SUMMARY
 //ADD the key and change units to imperial
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -44,7 +44,7 @@ weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
 
-const apiaURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
+const apiaURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
 
 fetch(apiaURL)
   .then((response) => response.json())
