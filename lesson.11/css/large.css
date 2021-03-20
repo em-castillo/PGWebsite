@@ -1,0 +1,33 @@
+@media only screen and (min-width: 64rem) {
+  main,
+  footer {
+    max-width: 64rem;
+    margin: auto;
+  }
+
+  div#fiveDays {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: none;
+  }
+
+  .eventBox {
+    margin: 1.5rem 15rem;
+    margin-bottom: -40px;
+  }
+
+  section.article img {
+    width: 40%;
+    margin-top: -50px;
+  }
+  nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+}
+/* end of media query */
