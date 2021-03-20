@@ -45,10 +45,17 @@ const today = new Date();
         element.classList.add("hideme");
       }
 
-     
-      WebFont.load({
-        google: {
-          families: ["Opens Sans", "Prata"],
-        },
-      });
-  
+
+//form storm severity
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+    }
+    
+function selectResponse() {
+    const s = document.querySelector('#selected')
+    const sel = document.querySelector('#selectbrowser');
+    s.style.display = "block";
+    s.textContent = sel.value;
+      
+    }
+      
