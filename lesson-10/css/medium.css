@@ -72,8 +72,9 @@
   }
 
   .eventBox {
-    margin: 1rem 15rem;
+    margin: 1rem 9rem;
     padding: 1rem;
+    padding-bottom: -10px;
     border: 5px solid #4ec5cf;
     border-radius: 15px;
     text-align: center;

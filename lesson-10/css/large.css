@@ -11,6 +11,10 @@
     grid-template-rows: none;
   }
 
+  .eventBox {
+    margin: 1rem 15rem;
+  }
+
   section.article img {
     width: 40%;
     margin-top: -50px;
