@@ -13,7 +13,7 @@ weekday[6] = "Saturday";
 
 //WEATHER SUMMARY
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=55850010&appid=860f7aa8effb0c4164aa06fbaf570ba8&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5585010&appid=860f7aa8effb0c4164aa06fbaf570ba8&units=imperial";
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
