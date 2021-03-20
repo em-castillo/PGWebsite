@@ -12,7 +12,8 @@
   }
 
   .eventBox {
-    margin: 1rem 15rem;
+    margin: 1.5rem 15rem;
+    margin-bottom: -40px;
   }
 
   section.article img {

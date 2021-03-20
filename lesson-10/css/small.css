@@ -168,7 +168,8 @@ section.forecast div h4 {
 }
 
 .eventBox {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  margin-bottom: -40px;
   padding: 1rem;
   border: 5px solid #4ec5cf;
   border-radius: 15px;
