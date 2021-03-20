@@ -71,6 +71,17 @@
     height: auto;
   }
 
+  .eventBox {
+    margin: 1rem 15rem;
+    padding: 1rem;
+    border: 5px solid #4ec5cf;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #99e4ef;
+    color: black;
+    font-size: 18px;
+  }
+
   section.article {
     display: block;
     margin-bottom: 50px;
