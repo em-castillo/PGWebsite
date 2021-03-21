@@ -198,6 +198,7 @@ section.article img {
   padding: 20px;
   grid-column: 1/2;
   grid-row: 3/4;
+  border-radius: 2rem;
 }
 
 section.contactus {
