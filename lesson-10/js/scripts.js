@@ -70,7 +70,7 @@ fetch(apiURL)
           let iconCode = weatherInfo.list[i].weather[0].icon;
           let iconPath = '//openweathermap.org/img/w/' + iconCode + '.png';
           let theIcon = document.createElement('img');
-          theIcon.setAttribute("alt", weatherInfolist[0].weather[0].description)
+          theIcon.alt = `Icon image of ${weatherInfo.list[i].weather[0].description}`;
           theIcon.src = iconPath;
         
           let theDay = document.createElement('div');
