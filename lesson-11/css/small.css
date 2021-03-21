@@ -122,7 +122,8 @@ div.summary p {
   line-height: 10px;
 }
 
-div.summary h3 {
+div.summary h2 {
+  font-weight: normal;
   margin-bottom: 5px;
 }
 
