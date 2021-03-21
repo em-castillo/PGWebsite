@@ -35,9 +35,9 @@ header h2 {
   font-size: 1.3rem;
   font-family: "Open Sans", serif;
 }
-h2.title {
-  display: none;
-}
+/* h2.title {
+  display:none ;
+} */
 h2 {
   font-family: "Open Sans", serif;
 }
