@@ -28,5 +28,9 @@
   nav ul li {
     display: inline-block;
   }
+
+  div.pictures figure {
+    margin-left: 38px;
+  }
 }
 /* end of media query */

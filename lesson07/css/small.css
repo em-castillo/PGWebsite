@@ -105,6 +105,7 @@ div.pictures {
   text-align: center;
 }
 div.pictures figure {
+  margin-left: 5px;
   margin-bottom: 30px;
 }
 

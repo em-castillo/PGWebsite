@@ -3,6 +3,7 @@
     width: auto;
   }
   header h1 {
+    padding-top: 0.5rem;
     font-size: 2rem;
   }
   header h2 {
@@ -62,5 +63,9 @@
   div.pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  div.pictures figure {
+    margin-left: 0;
   }
 } /* end of media query */
