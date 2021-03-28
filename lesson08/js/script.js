@@ -58,4 +58,11 @@ function selectResponse() {
     s.textContent = sel.value;
       
     }
+
+//font
+WebFont.load({
+  google: {
+    families: ["Opens Sans", "Prata"],
+  },
+});
       
