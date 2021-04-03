@@ -1,0 +1,67 @@
+function toggleMenu() {
+    
+    document.getElementById("navigation").classList.toggle("hide");
+  }
+
+//date Saturday, January 30 2021
+const daynames = [
+    "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+];
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+const todaysdate = new Date();
+const dayName = daynames[todaysdate.getDay()];
+const monthName = months[todaysdate.getMonth()];
+const year = todaysdate.getFullYear();
+const currentdate = dayName + ", " + todaysdate.getDate() + " " + monthName + " " + year;
+const options = {weekday: 'long', month: 'long', day: 'numeric', year: 'numeric'};
+document.getElementById("currentDate").textContent = currentdate;
+
+//saturday, 13 february 2021
+const today = new Date();
+      console.log(today);
+
+      const dayNumber = today.getDay();
+      console.log(dayNumber);
+
+      //show message at the top on determined day
+      const element = document.getElementById("message");
+
+      if (dayNumber == 5) {
+        element.classList.add("showme");
+      } else {
+        element.classList.add("hideme");
+      }
+
+
+//form storm severity
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+    }
+    
+function selectResponse() {
+    const s = document.querySelector('#selected')
+    const sel = document.querySelector('#selectbrowser');
+    s.style.display = "block";
+    s.textContent = sel.value;
+      
+    }
+      
+//font
+WebFont.load({
+  google: {
+    families: ["Opens Sans", "Prata"],
+  },
+});

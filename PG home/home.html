@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Chamber of Commerce" />
+    <meta name="author" content="Emily Castillo" />
+    <title>Pleasant Grove Chamber of Commerce - Home</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/home.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <img src="images/logo.png" alt="Solstice Season logo" />
+      <h1>Pleasant Grove Chamber of Commerce</h1>
+      <h2>City of Trees</h2>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navigation" class="hide">
+        <li><a href="/lesson09/index.html">Home</a></li>
+        <li class="active"><a href="index.html">City</a></li>
+        <li><a href="/lesson-11/sodasprings.html">Join Us</a></li>
+        <li><a href="/lesson.11/fishheaven.html">Directory</a></li>
+        <li><a href="/lesson08/stromcenter.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main class="clearfix">
+      <div id="message">
+        "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city
+        park pavilion."
+      </div>
+      <h1>Welcome!</h1>
+      <section class="hero">
+        <picture class="image">
+          <source
+            media="(max-width:500px)"
+            srcset="images/heroimagesmall.jpg"
+          />
+          <source
+            media="(max-width:800px)"
+            srcset="images/heroimagemedium.jpg"
+          />
+
+          <img src="images/heroimagelarge.jpg" alt="Town hero image" />
+        </picture>
+        <div class="summary">
+          <h2>Weather Summary</h2>
+          <p>Currently: <span id="current">00</span></p>
+          <p>Temperature: <span id="temp">00</span>&deg;</p>
+          <p>Humidity: <span id="humid"></span>%</p>
+        </div>
+      </section>
+
+      <section class="forecast">
+        <h2 class="title">Five Day Forecast</h2>
+        <div id="fiveDays"></div>
+      </section>
+
+      <section class="event">
+        <div class="eventBox">
+          <h2>Events</h2>
+          <div id="box"></div>
+        </div>
+      </section>
+
+      <img
+        id="weather_icon"
+        src="images/placeholder.png"
+        alt="current weather"
+      />
+
+      <section class="article">
+        <h2>Do You Meditate?</h2>
+        <img src="images/article.jpg" alt="article image" />
+        <p>
+          Meditation is the practice of intentionally turning your attention
+          away from distractions and focus on a single point of reference like
+          the breath, body, specific thought, etc. But, How can you do it?
+          First, find a quiet place where you cannot be disturbed, and there are
+          no distractions. Second, sit in a chair or couch with your feet on the
+          ground or lay down if it is more comfortable for you, but be careful
+          to not fall asleep. And finally, close your eyes and start meditating.
+          Some people meditate through yoga, but if you are new to this, try a
+          guided meditation. You can find some on Youtube or Spotify, those are
+          a good place to start. You can meditate as long as it is good for you.
+          You can begin with five or ten minutes, and then increase it as weeks
+          pass by. You will see how much calmer and focus you are. Researches
+          show that meditation has a variety of positive benefits. This includes
+          a positive mood, better concentration, decreases stress, and it can
+          even boost the gray matter. As you see, adding this activity to your
+          daily routine has many advantages.
+        </p>
+      </section>
+
+      <h2>Contact Us</h2>
+      <section class="contactus">
+        <div class="contact">
+          <h3>Address:</h3>
+          <p>
+            Pleasant Grove Chamber of Commerce <br />
+            70 South 100 East<br />
+            Pleasant Grove, UT 84062
+          </p>
+        </div>
+        <div class="contact">
+          <h3>Phone:</h3>
+          <p>(801) 922-4540</p>
+          <h3>Email:</h3>
+          <p>chamber@pgchamber.org</p>
+        </div>
+        <img src="images/facebook.png" alt="Facebook" />
+        <img src="images/instagram.jpeg" alt="Instagram" />
+        <img src="images/youtube.png" alt="Youtube" />
+      </section>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      &copy; 2021 | Emily Castillo | <span id="currentDate"></span>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
