@@ -13,7 +13,7 @@ weekday[6] = "Saturday";
 
 //WEATHER SUMMARY
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/forecast?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?zip=84062,us&appid=1357ddda435ebfa52334c265dcad4f70&units=imperial";
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -28,7 +28,7 @@ fetch(apiURL)
     
     
 //FIVE DAY FORECAST
-// const apiaURL = "//api.openweathermap.org/data/2.5/weather?id=5604473&appid=05f41fc7ad683844ae8d5bfe48afac6a&units=imperial";
+// const apiaURL = "//api.openweathermap.org/data/2.5/weather?zip=84062,us&appid=1357ddda435ebfa52334c265dcad4f70&units=imperial";
 
 // fetch(apiaURL)
 //   .then((response) => response.json())
