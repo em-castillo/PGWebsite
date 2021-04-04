@@ -38,7 +38,7 @@ fetch(apiURL)
     let mylist = weatherInfo.list;
     let forecastDayNumber = todayDayNumber;
 
-      for (i = 0; i < 3; i++){
+      for (i = 0; i < mylist.length; i++){
 
         let time = mylist[i].dt_txt;
         if (time.includes('18:00:00')) {

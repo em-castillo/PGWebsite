@@ -316,10 +316,9 @@ footer {
     padding-bottom: 0px;
   }
 
-  div#fiveDays {
+  div#threeDays {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 
   section.forecast div {
@@ -377,10 +376,9 @@ footer {
     font-size: 2rem;
   }
 
-  div#fiveDays {
+  div#threeDays {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: none;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .eventBox {
