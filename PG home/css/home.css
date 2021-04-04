@@ -177,7 +177,7 @@ section.forecast div h4 {
 
 .eventBox {
   margin: 1.5rem 0;
-  margin-bottom: -40px;
+  margin-bottom: 1rem;
   padding: 1rem;
   border: 3px dashed #b4c79b;
   border-radius: 15px;
@@ -207,31 +207,14 @@ section.goal p {
 }
 
 section.contactus {
-  justify-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 1rem;
   padding-bottom: 1rem;
 }
 
-section.contactus div.contac {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-section.contactus div.contac2 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-
-section.contactus div.social {
-  grid-column: 1/4;
-  grid-row: 2/3;
-}
-
-section.contactus div.social img {
-  padding: 0 0.3rem;
+section.contactus div.contac2 img {
+  padding: 0.2rem;
 }
 
 /* div.iframe {
@@ -329,11 +312,11 @@ footer {
   }
 
   section.ads {
-    padding-top: 1rem;
-    justify-items: center;
+    margin: 0;
+    padding-top: 1rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   section.ads img {
@@ -361,8 +344,7 @@ footer {
   }
 
   .eventBox {
-    margin: 1.5rem 8rem;
-    margin-bottom: -40px;
+    margin: 2.5rem 8rem;
     padding: 1rem;
     border: 4px dashed #b4c79b;
     border-radius: 15px;
@@ -381,6 +363,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+  }
+
+  section.contactus div.contact2 img {
+    padding: 2.5rem 0.2rem 0 0.2rem;
   }
   /* div.iframe {
     grid-column: 3/4;
@@ -406,11 +392,6 @@ footer {
   div#threeDays {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  .eventBox {
-    margin: 1.5rem 15rem;
-    margin-bottom: -40px;
   }
 
   nav ul {
