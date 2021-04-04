@@ -275,6 +275,11 @@ textarea {
     margin: auto;
   }
 
+  header h1 {
+    padding-top: 1.5rem;
+    font-size: 2rem;
+  }
+
   header.clearfix img {
     width: 10%;
     height: auto;
