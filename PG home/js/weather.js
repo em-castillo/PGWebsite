@@ -20,7 +20,7 @@ fetch(apiURL)
 .then((response) => response.json())
 .then((weatherInfo) => {
     //Once it comes back, display it to the console.
-    console.log(weatherInfo);
+    // console.log(weatherInfo);
     
     document.getElementById('current').innerHTML= weatherInfo.list[0].weather[0].description; //check console for name
     document.getElementById('temp').innerHTML= weatherInfo.list[0].main.temp_max;

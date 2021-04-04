@@ -26,11 +26,13 @@ header img {
   height: auto;
   border-radius: 2rem;
 }
+
 header h1 {
   margin: 0;
   font-size: 1.6rem;
   font-family: "Merriweather", serif;
 }
+
 header h2 {
   margin: 0;
   font-weight: normal;
@@ -229,6 +231,8 @@ section.contactus {
 
 section.contactus div.contac2 img {
   padding: 0.2rem;
+  width: 20%;
+  height: auto;
 }
 
 /* div.iframe {

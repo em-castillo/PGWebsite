@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Chamber of Commerce" />
+    <meta name="author" content="Emily Castillo" />
+    <title>Pleasant Grove Chamber of Commerce - Membership</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/join.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <img src="logo.png" alt="Solstice Season logo" />
+      <h1>Pleasant Grove Chamber of Commerce</h1>
+      <h2>City of Trees</h2>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navigation" class="hide">
+        <li><a href="/PG home/home.html">Home</a></li>
+        <li><a href="">City</a></li>
+        <li class="active"><a href="/PG join/join.html">Join Us</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section class="join">
+      <h1>Join the Chamber of Commerce</h1>
+      <p>because is good</p>
+    </section>
+
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Membership Application</legend>
+          <label class="top">
+            First Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top">
+            Last Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top">
+            Title <input type="text" name="fname"
+          /></label>
+          <label class="top">
+            Email*
+            <input type="email" name="email" placeholder="info@example.com" required
+          /></label>
+          <label class="top">
+            Phone
+            <input type="tel" name="phone" placeholder="1234554321" 
+          /></label>
+          <label class="top">
+            Bussiness Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top">
+            Bussiness Address <input type="text" name="fname" 
+          /></label>
+          <label class="top">
+            Bussiness Website <input type="website" name="website" placeholder="www.example.com" 
+          /></label>
+          <label class="top"
+            >Bussiness Description
+            <textarea name="description"></textarea>
+          </label>
+          <div>Level of Membership</div>
+          <label class="sbs"
+            ><input type="radio" name="level" value="Gold ($1000)" /> Gold ($1000)</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="level" value="Silver ($400)" /> Silver ($400)</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="level" value="Bronze ($200)" /> Bronze ($200)</label
+            >
+            <label class="sbs"
+            ><input type="radio" name="level" value="Non-profit ($100)" /> Non-profit ($100)</label
+            >
+        </fieldset>      
+
+        <input type="submit" value="Send Application" class="submitBtn" />
+      </form>
+    </main>
+
+    <footer>
+      &copy; 2021 | Emily Castillo | <span id="currentDate"></span>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

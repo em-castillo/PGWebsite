@@ -31,10 +31,10 @@ document.getElementById("currentDate").textContent = currentdate;
 
 //saturday, 13 february 2021
 const today = new Date();
-      // console.log(today);
+      console.log(today);
 
       const dayNumber = today.getDay();
-      // console.log(dayNumber);
+      console.log(dayNumber);
 
       //show message at the top on determined day
       const element = document.getElementById("message");
@@ -44,10 +44,25 @@ const today = new Date();
       } else {
         element.classList.add("hideme");
       }
+
+
+//form storm severity
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+    }
+    
+function selectResponse() {
+    const s = document.querySelector('#selected')
+    const sel = document.querySelector('#selectbrowser');
+    s.style.display = "block";
+    s.textContent = sel.value;
       
+    }
+
 //font
 WebFont.load({
   google: {
     families: ["Opens Sans", "Prata"],
   },
 });
+      
