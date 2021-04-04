@@ -19,10 +19,10 @@ header {
   background-color: #decda4;
 }
 
-header img {
+header.clearfix img {
   float: left;
   margin: 8px 15px 8px 8px;
-  width: 30%;
+  width: 28%;
   height: auto;
   border-radius: 2rem;
 }
@@ -203,8 +203,9 @@ textarea {
     min-height: 15rem;
   }
 
-  header img {
-    width: auto;
+  header.clearfix img {
+    width: 15%;
+    height: auto;
   }
 
   header h1 {
@@ -216,7 +217,7 @@ textarea {
     font-size: 1.5rem;
   }
 
-  header img {
+  header.clearfix img {
     width: 20%;
     height: auto;
     border-radius: 3rem;
@@ -272,6 +273,12 @@ textarea {
   footer {
     max-width: 64rem;
     margin: auto;
+  }
+
+  header.clearfix img {
+    width: 10%;
+    height: auto;
+    border-radius: 4rem;
   }
 
   nav ul {

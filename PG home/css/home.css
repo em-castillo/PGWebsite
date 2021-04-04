@@ -19,12 +19,12 @@ header {
   background-color: #decda4;
 }
 
-header img {
+header.clearfix img {
   float: left;
   margin: 8px 15px 8px 8px;
-  width: 30%;
+  width: 28%;
   height: auto;
-  border-radius: 2rem;
+  border-radius: 3rem;
 }
 
 header h1 {
@@ -276,10 +276,10 @@ footer {
     font-size: 1.5rem;
   }
 
-  header img {
-    width: 20%;
+  header.clearfix img {
+    width: 15%;
     height: auto;
-    border-radius: 3rem;
+    border-radius: 4rem;
   }
 
   section.hero picture.image img {
@@ -415,6 +415,12 @@ footer {
   header h1 {
     padding-top: 1.5rem;
     font-size: 2rem;
+  }
+
+  header.clearfix img {
+    width: 10%;
+    height: auto;
+    border-radius: 5rem;
   }
 
   div#threeDays {
