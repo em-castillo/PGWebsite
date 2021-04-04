@@ -21,8 +21,10 @@ header {
 
 header img {
   float: left;
-  margin-right: 10px;
-  width: 50px;
+  margin: 8px 15px 8px 8px;
+  width: 30%;
+  height: auto;
+  border-radius: 2rem;
 }
 header h1 {
   margin: 0;
@@ -172,10 +174,10 @@ section.forecast div h4 {
   margin: 1.5rem 0;
   margin-bottom: -40px;
   padding: 1rem;
-  border: 5px solid #b4c79b;
+  border: 3px dashed #b4c79b;
   border-radius: 15px;
   text-align: center;
-  background-color: #b4c79b;
+  background-color: #e6dcbf;
   color: black;
   font-size: 18px;
 }
@@ -252,15 +254,18 @@ footer {
 }
 
 @media only screen and (min-width: 35rem) {
-  header img {
-    width: auto;
-  }
   header h1 {
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     font-size: 2rem;
   }
   header h2 {
     font-size: 1.5rem;
+  }
+
+  header img {
+    width: 20%;
+    height: auto;
+    border-radius: 3rem;
   }
 
   /* nav ul {
@@ -296,6 +301,7 @@ footer {
 
   div.summary {
     position: absolute;
+    float: right;
     top: 20px;
     left: 30px;
   }
@@ -329,7 +335,7 @@ footer {
     margin: 1.5rem 8rem;
     margin-bottom: -40px;
     padding: 1rem;
-    border: 5px solid #e6dcbf;
+    border: 4px dashed #b4c79b;
     border-radius: 15px;
     text-align: center;
     background-color: #e6dcbf;
@@ -364,6 +370,11 @@ footer {
   footer {
     max-width: 64rem;
     margin: auto;
+  }
+
+  header h1 {
+    padding-top: 1.5rem;
+    font-size: 2rem;
   }
 
   div#fiveDays {

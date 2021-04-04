@@ -1,4 +1,4 @@
-// FIVE DAY FORECAST
+// THREE DAY FORECAST
 const d = new Date();
 const todayDayNumber = d.getDay();
 
@@ -27,7 +27,7 @@ fetch(apiURL)
     document.getElementById('humid').innerHTML= weatherInfo.list[0].main.humidity;
     
     
-//FIVE DAY FORECAST
+//THREE DAY FORECAST
 // const apiaURL = "//api.openweathermap.org/data/2.5/weather?zip=84062,us&appid=1357ddda435ebfa52334c265dcad4f70&units=imperial";
 
 // fetch(apiaURL)
@@ -38,7 +38,7 @@ fetch(apiURL)
     let mylist = weatherInfo.list;
     let forecastDayNumber = todayDayNumber;
 
-      for (i = 0; i < mylist.length; i++){
+      for (i = 0; i < 3; i++){
 
         let time = mylist[i].dt_txt;
         if (time.includes('18:00:00')) {
@@ -63,7 +63,7 @@ fetch(apiURL)
           theDay.appendChild(theTemp);
           theDay.appendChild(theIcon);
 
-          document.getElementById('fiveDays').appendChild(theDay);
+          document.getElementById('threeDays').appendChild(theDay);
   
       }
     }
