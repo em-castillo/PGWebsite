@@ -136,12 +136,17 @@ div#message {
   text-align: center;
 }
 
-div.showme {
-  display: block;
+section.ads {
+  padding-top: 1rem;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-div.hideme {
-  display: none;
+section.ads img {
+  width: 60%;
+  height: auto;
+  padding: 0.3rem 0;
 }
 
 section.forecast {
@@ -151,7 +156,7 @@ section.forecast {
 
 section.forecast div {
   text-align: center;
-  border: 1px solid #aaa;
+  border: 1px solid #b4c79b;
 }
 
 section.forecast div img {
@@ -268,6 +273,10 @@ footer {
     border-radius: 3rem;
   }
 
+  section.hero picture.image img {
+    margin-bottom: 2.5rem;
+  }
+
   /* nav ul {
       display: flex;
       justify-content: space-around;
@@ -309,6 +318,19 @@ footer {
   h2.title {
     display: initial;
     padding: 0 0;
+  }
+
+  section.ads {
+    padding-top: 1rem;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  section.ads img {
+    width: 75%;
+    height: auto;
   }
 
   section.forecast {
