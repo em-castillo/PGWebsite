@@ -46,7 +46,7 @@ const today = new Date();
       }
 
 
-//form storm severity
+//form membership
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
     }
