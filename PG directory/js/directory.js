@@ -8,10 +8,8 @@ fetch(requestURL) //fetch method, URL is argument
   .then(function (jsonObject) {//work with the converted response data in JavaScript object format
     
     //store the results of the converted response into an array
-    const towns = jsonObject['directory'];
-
-    //select output 
-    //const cards = document.querySelector('.cards');
+    const directory = jsonObject['directory'];
+    // const cards = document.querySelector('.cards');
 
     for (let i = 0; i < directory.length; i++) { {
         let card = document.createElement('div');
@@ -26,7 +24,7 @@ fetch(requestURL) //fetch method, URL is argument
         //use template literals ``
         name.textContent = directory[i].name;
         address.textContent = 'Address: ' + directory[i].address;
-        phone.textContent ='Phone: ' + directoty[i].phone;
+        phone.textContent ='Phone: ' + directory[i].phone;
         website.textContent = 'Website: ' + directory[i].website;
         logo.setAttribute('src', 'logos/'+directory[i].logo);
         logo.setAttribute('alt', directory[i].name);
