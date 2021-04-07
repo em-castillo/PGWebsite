@@ -133,6 +133,10 @@ div.himages {
   padding: 1.5rem 0;
 }
 
+div.himages #width {
+  width: 87%;
+}
+
 div.eimages {
   padding: 1.5rem 0;
 }
