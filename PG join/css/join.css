@@ -120,6 +120,10 @@ section.join {
   padding: 0 0.5rem;
 }
 
+p {
+  line-height: 20px;
+}
+
 /*FORM*/
 
 form fieldset {
@@ -191,6 +195,32 @@ textarea {
   height: 10rem;
 }
 
+.member h3 {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 2px solid #c6d6b1;
+}
+
+.memberBox {
+  padding: 0;
+  margin-bottom: 1rem;
+  border: 2px solid #c6d6b1;
+  border-radius: 15px;
+  background-color: #eee8d7;
+  color: black;
+  font-size: 18px;
+}
+
+div#box {
+  padding: 0;
+}
+
+div#box ul {
+  color: black;
+  line-height: 20px;
+  font-size: 16px;
+}
+
 /* ---------------------------TABLET--------------------------- */
 @media only screen and (min-width: 35rem) {
   section.join {
@@ -250,6 +280,16 @@ textarea {
     height: 10rem;
     justify-items: left;
   }
+
+  section.member {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+
+  form input.submitBtn {
+    margin: 0 25%;
+  }
 }
 
 /* -----------------------------LAPTOP---------------------------- */
@@ -287,6 +327,10 @@ textarea {
 
   form label.sbs {
     padding: 0.4rem 0;
+  }
+
+  form input.submitBtn {
+    margin: 0 30%;
   }
 }
 /* end of media query */
