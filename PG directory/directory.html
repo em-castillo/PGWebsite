@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/directory.css" rel="stylesheet" />
   </head>
@@ -29,13 +33,32 @@
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="navigation" class="hide">
         <li><a href="/PG home/home.html">Home</a></li>
-        <li><a href="">City</a></li>
+        <li><a href="/PG city/city.html">City</a></li>
         <li><a href="/PG join/join.html">Join Us</a></li>
         <li class="active"><a href="directory.html">Directory</a></li>
         <li><a href="/PG contact/contact.html">Contact Us</a></li>
       </ul>
     </nav>
     <main>
+      <h2>Local Businesses</h2>
+      <div class="buttoncontainer">
+        <input
+          id="grid"
+          class="display"
+          type="image"
+          src="images/grid.svg"
+          alt="grid view"
+          onclick="switchgrid();"
+        />
+        <input
+          id="list"
+          class="display currentView"
+          type="image"
+          src="images/list.svg"
+          alt="list view"
+          onclick="switchlist();"
+        />
+      </div>
       <div class="cards"></div>
     </main>
     <footer>

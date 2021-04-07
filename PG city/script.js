@@ -31,16 +31,23 @@ document.getElementById("currentDate").textContent = currentdate;
 
 //saturday, 13 february 2021
 const today = new Date();
-      console.log(today);
+      // console.log(today);
 
       const dayNumber = today.getDay();
-      console.log(dayNumber);
+      // console.log(dayNumber);
 
+      //show message at the top on determined day
+      const element = document.getElementById("message");
 
+      if (dayNumber == 5) {
+        element.classList.add("showme");
+      } else {
+        element.classList.add("hideme");
+      }
+      
 //font
 WebFont.load({
   google: {
-    families: ["Merriweather", "Lato"],
+    families: ["Opens Sans", "Prata"],
   },
 });
-      
