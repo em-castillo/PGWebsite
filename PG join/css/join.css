@@ -222,16 +222,6 @@ textarea {
     height: auto;
     border-radius: 3rem;
   }
-  /*
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  nav ul li {
-    display: flex;
-    float: left;
-    flex: 1 1 100%;
-  }*/
 
   nav ul {
     list-style: none;
