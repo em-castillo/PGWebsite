@@ -36,9 +36,8 @@ fetch(requestURL) //fetch method, URL is argument
         info.appendChild(phone);
         info.appendChild(website);
         card.appendChild(info);
-        
-        photo.appendChild(logo);
-        card.appendChild(photo);
+        card.appendChild(logo);
+     
         
         document.getElementById('cards').appendChild(card);
         }
