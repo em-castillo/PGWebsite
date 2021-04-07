@@ -118,6 +118,7 @@ footer {
 
 section.directory {
   padding: 0 1rem;
+  padding-bottom: 0.5rem;
 }
 
 section.contact {
@@ -206,10 +207,23 @@ div.iframe {
 @media only screen and (min-width: 35rem) {
   section.directory {
     padding: 0 5%;
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 5rem;
+  }
+
+  section.directory div.chamber {
+    grid-column: 1/2;
+  }
+
+  section.directory div.board {
+    grid-column: 2/3;
   }
 
   section.contact {
-    padding: 0 5%;
+    padding: 0.5rem 5%;
+    margin: 0.5rem 0;
   }
 
   form {
