@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Chamber of Commerce" />
+    <meta name="author" content="Emily Castillo" />
+    <title>Pleasant Grove Chamber of Commerce - Contact Us</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="images/logo.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="clearfix">
+      <img src="images/logo.png" alt="PG Chamber of Commerce Logo" />
+      <h1>Pleasant Grove Chamber of Commerce</h1>
+      <h2>City of Trees</h2>
+    </header>
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="navigation" class="hide">
+        <li><a href="/PG home/home.html">Home</a></li>
+        <li><a href="">City</a></li>
+        <li><a href="/PG join/join.html">Join Us</a></li>
+        <li><a href="">Directory</a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <section class="directory">
+      <h1>Board of Directors</h1>
+    </section>
+    <section class="contact">
+      <div class="contactinfo">
+      <h1>Contact Information</h1>
+      <h3>Address:</h3>
+          <p>
+            Pleasant Grove Chamber of Commerce <br />
+            70 South 100 East<br />
+            Pleasant Grove, UT 84062
+          </p>
+          <h3>Phone:</h3>
+          <p>(801) 922-4540</p>
+        
+          <h3>Email:</h3>
+          <p>chamber@pgchamber.org</p>
+          <h3>Social Media</h3>
+          <a href="www.facebook.com"
+            ><img src="images/facebook.png" alt="Facebook"
+          /></a>
+          <a href="www.instagram.com"
+            ><img src="images/instagram.jpeg" alt="Instagram"
+          /></a>
+          <a href="www.twitter.com"
+            ><img src="images/twitter.png" alt="Twitter"
+          /></a>
+        </div>
+    
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Contact Us</legend>
+          <label class="top">
+            Full Name* <input type="text" name="fname" required
+          /></label>
+          <label class="top">
+            Email*
+            <input type="email" name="email" placeholder="info@example.com" required
+          /></label>
+          <label class="top">
+            Phone
+            <input type="tel" name="phone" placeholder="1234554321" 
+          /></label>
+          <label class="top"
+            >Comments
+            <textarea name="description"></textarea>
+          </label>
+        </fieldset>      
+
+        <input type="submit" value="Send Information" class="submitBtn" />
+      </form>
+    </section>
+    <div class="iframe" style="width: 100%"><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=450&amp;hl=en&amp;q=70%20South%20100%20East+(Pleasant%20grove%20Chamber%20of%20Commerce)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/route-planner.htm">Pleasant Grove Chamber of Commerce</a></div>
+    </main>
+
+    <footer>
+      &copy; 2021 | Emily Castillo | <span id="currentDate"></span>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
