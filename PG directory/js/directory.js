@@ -1,17 +1,16 @@
 //Let's store the resource, the URL of the JSON file into a const variable to start.
 const requestURL = 'https://em-castillo.github.io/PG%20directory/json%20file/directory.json';
 
-fetch(requestURL) //fetch method, URL is argument
+fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
-  .then(function (jsonObject) {//work with the converted response data in JavaScript object format
-    
-    //store the results of the converted response into an array
+  .then(function (jsonObject) {
     const directory = jsonObject['directory'];
-    // const cards = document.querySelector('.cards');
+    const cards = document.querySelector('.cards');
 
-    for (let i = 0; i < directory.length; i++) { {
+    // for (let i = 0; i < directory.length; i++)
+    directory.forEach((business) =>  {
         let card = document.createElement('div');
         let info = document.createElement('section');
         let name = document.createElement('h2');
@@ -22,15 +21,16 @@ fetch(requestURL) //fetch method, URL is argument
         
 
         //use template literals ``
-        name.textContent = directory[i].name;
-        address.textContent = 'Address: ' + directory[i].address;
-        phone.textContent ='Phone: ' + directory[i].phone;
-        website.textContent = 'Website: ' + directory[i].website;
-        logo.setAttribute('src', 'logos/'+directory[i].logo);
-        logo.setAttribute('alt', directory[i].name);
+        name.innerHTML = `${business.name}`;
+        address.innerHTML = `Address: <br>${business.address}`;
+        phone.textContent =`Phone: ${business.phone}`;
+        website.innerHTML = `Website: ${business.website}`;
+        website.setAttribute("href", `//${business.website}`);
+        logo.setAttribute('src', `logos/${business.logo}`);
+        logo.setAttribute('alt', `Logo for ${business.name}`);
         logo.setAttribute('loading', 'lazy');
 
-
+        cards.append(card);
         info.appendChild(name);
         info.appendChild(address);
         info.appendChild(phone);
@@ -39,7 +39,7 @@ fetch(requestURL) //fetch method, URL is argument
         card.appendChild(logo);
      
         
-        document.getElementById('cards').appendChild(card);
-        }
-    }
+        // document.getElementById('cards').appendChild(card);
+        });
+    
   });
