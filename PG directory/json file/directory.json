@@ -1,0 +1,67 @@
+{
+    "directory": [
+      {
+        "name": "Mo' Bettahs",
+        "address": "855 W. State Street, Pleasant Grove, UT 84062",
+        "phone": "385-237-5758",
+        "logo": "logos/mobettahs.jpeg",
+        "website": "https://www.mobettahs.com/"
+      },
+      {
+        "name": "doTERRA",
+        "address": "549 S 1300 W St #100, Pleasant Grove, UT 84062",
+        "phone": " (801) 615-7200",
+        "logo": "logos/doterra.jpeg",
+        "website": "https://www.doterra.com/"
+      },
+      {
+        "name": "Utah Community Credit Union",
+        "address": "105 E State Street, Pleasant Grove, UT 84062",
+        "phone": "800-453-8188",
+        "logo": "logos/community.jpeg",
+        "website": "https://www.uccu.com/"
+      },
+      {
+        "name": "Olpin Family Mortuary",
+        "address": "494 South 300 East, Pleasant Grove, UT 84062",
+        "phone": "801-785-3503",
+        "logo": "logos/mortuary.jpeg",
+        "website": "https://www.olpinmortuary.com/"
+      },
+      {
+        "name": "Taco Amigo",
+        "address": "239 E State Rd, Pleasant Grove, UT 84062",
+        "phone": "801-785-4718",
+        "logo": "logos/tacoamigo.jpeg",
+        "website": "https://www.tacoamigo.com/"
+      },
+      {
+        "name": "Follow the Flag",
+        "address": "PO Box 1261, Pleasant Grove, UT 84062",
+        "phone": "801-319-9926",
+        "logo": "logos/flag.jpeg",
+        "website": "https://followtheflag.org/"
+      },
+      {
+        "name": "Water Gardens Theatres",
+        "address": "PO Box 803, Pleasant Grove, UT 84062",
+        "phone": "801-376-1444",
+        "logo": "logos/watergardens.jpeg",
+        "website": "https://www.watergardenstheatres.com/"
+      },
+      {
+        "name": "Stone Gate",
+        "address": "886 W 2600 N, Pleasant Grove, UT 84062",
+        "phone": "801-847-7827",
+        "logo": "logos/stinegate.jpeg",
+        "website": "https://www.stonegateweddings.com/"
+      },
+      {
+        "name": "Maceys",
+        "address": "931 W State Street, Pleasant Grove, UT 84062",
+        "phone": "801-796-6601",
+        "logo": "logos/maceys.jpeg",
+        "website": "https://maceys.com/"
+      }
+    ]
+}
