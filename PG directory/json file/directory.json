@@ -18,49 +18,49 @@
         "name": "Utah Community Credit Union",
         "address": "105 E State Street, Pleasant Grove, UT 84062",
         "phone": "800-453-8188",
-        "logo": "logos/community.jpeg",
+        "logo": "community.jpeg",
         "website": "https://www.uccu.com/"
       },
       {
         "name": "Olpin Family Mortuary",
         "address": "494 South 300 East, Pleasant Grove, UT 84062",
         "phone": "801-785-3503",
-        "logo": "logos/mortuary.jpeg",
+        "logo": "mortuary.jpeg",
         "website": "https://www.olpinmortuary.com/"
       },
       {
         "name": "Taco Amigo",
         "address": "239 E State Rd, Pleasant Grove, UT 84062",
         "phone": "801-785-4718",
-        "logo": "logos/tacoamigo.jpeg",
+        "logo": "tacoamigo.jpeg",
         "website": "https://www.tacoamigo.com/"
       },
       {
         "name": "Follow the Flag",
         "address": "PO Box 1261, Pleasant Grove, UT 84062",
         "phone": "801-319-9926",
-        "logo": "logos/flag.jpeg",
+        "logo": "flag.jpeg",
         "website": "https://followtheflag.org/"
       },
       {
         "name": "Water Gardens Theatres",
         "address": "PO Box 803, Pleasant Grove, UT 84062",
         "phone": "801-376-1444",
-        "logo": "logos/watergardens.jpeg",
+        "logo": "watergardens.jpeg",
         "website": "https://www.watergardenstheatres.com/"
       },
       {
         "name": "Stone Gate",
         "address": "886 W 2600 N, Pleasant Grove, UT 84062",
         "phone": "801-847-7827",
-        "logo": "logos/stinegate.jpeg",
+        "logo": "stonegate.jpeg",
         "website": "https://www.stonegateweddings.com/"
       },
       {
         "name": "Maceys",
         "address": "931 W State Street, Pleasant Grove, UT 84062",
         "phone": "801-796-6601",
-        "logo": "logos/maceys.jpeg",
+        "logo": "maceys.jpeg",
         "website": "https://maceys.com/"
       }
     ]
