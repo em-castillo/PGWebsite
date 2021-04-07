@@ -31,14 +31,15 @@
         <li><a href="/PG home/home.html">Home</a></li>
         <li><a href="">City</a></li>
         <li class="active"><a href="/PG join/join.html">Join Us</a></li>
-        <li><a href="">Directory</a></li>
+        <li><a href="/PG directory/directory.html">Directory</a></li>
         <li><a href="/PG contact/contact.html">Contact Us</a></li>
       </ul>
     </nav>
-    <section class="join">
-      <h1>Join the Chamber of Commerce</h1>
-      <p>because is good</p>
-    </section>
+    <main>
+      <section class="join">
+        <h1>Join the Chamber of Commerce</h1>
+        <p>because is good</p>
+      </section>
 
       <form method="get" action="confirmation.html">
         <fieldset>
@@ -49,25 +50,28 @@
           <label class="top">
             Last Name* <input type="text" name="fname" required
           /></label>
-          <label class="top">
-            Title <input type="text" name="fname"
-          /></label>
+          <label class="top"> Title <input type="text" name="fname" /></label>
           <label class="top">
             Email*
-            <input type="email" name="email" placeholder="info@example.com" required
+            <input
+              type="email"
+              name="email"
+              placeholder="info@example.com"
+              required
           /></label>
           <label class="top">
             Phone
-            <input type="tel" name="phone" placeholder="1234554321" 
+            <input type="tel" name="phone" placeholder="1234554321"
           /></label>
           <label class="top">
             Bussiness Name* <input type="text" name="fname" required
           /></label>
           <label class="top">
-            Bussiness Address <input type="text" name="fname" 
+            Bussiness Address <input type="text" name="fname"
           /></label>
           <label class="top">
-            Bussiness Website <input type="website" name="website" placeholder="www.example.com" 
+            Bussiness Website
+            <input type="website" name="website" placeholder="www.example.com"
           /></label>
           <label class="top"
             >Bussiness Description
@@ -75,18 +79,22 @@
           </label>
           <div>Level of Membership</div>
           <label class="sbs"
-            ><input type="radio" name="level" value="Gold ($1000)" /> Gold ($1000)</label
+            ><input type="radio" name="level" value="Gold ($1000)" /> Gold
+            ($1000)</label
           >
           <label class="sbs"
-            ><input type="radio" name="level" value="Silver ($400)" /> Silver ($400)</label
+            ><input type="radio" name="level" value="Silver ($400)" /> Silver
+            ($400)</label
           >
           <label class="sbs"
-            ><input type="radio" name="level" value="Bronze ($200)" /> Bronze ($200)</label
-            >
-            <label class="sbs"
-            ><input type="radio" name="level" value="Non-profit ($100)" /> Non-profit ($100)</label
-            >
-        </fieldset>      
+            ><input type="radio" name="level" value="Bronze ($200)" /> Bronze
+            ($200)</label
+          >
+          <label class="sbs"
+            ><input type="radio" name="level" value="Non-profit ($100)" />
+            Non-profit ($100)</label
+          >
+        </fieldset>
 
         <input type="submit" value="Send Application" class="submitBtn" />
       </form>
