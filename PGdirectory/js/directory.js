@@ -1,5 +1,5 @@
 //Let's store the resource, the URL of the JSON file into a const variable to start.
-const requestURL = 'https://em-castillo.github.io/PG%20directory/json%20file/directory.json';
+const requestURL = 'https://em-castillo.github.io/PGdirectory/jsonfile/directory.json';
 
 fetch(requestURL)
   .then(function (response) {
