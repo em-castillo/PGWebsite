@@ -229,6 +229,10 @@ button {
   justify-items: center;
 }
 
+button:hover {
+  background-color: #e6dcbf;
+}
+
 section.contactus {
   display: grid;
   grid-template-columns: 1fr;
