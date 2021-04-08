@@ -31,10 +31,10 @@ document.getElementById("currentDate").textContent = currentdate;
 
 //saturday, 13 february 2021
 const today = new Date();
-      console.log(today);
+      // console.log(today);
 
       const dayNumber = today.getDay();
-      console.log(dayNumber);
+      // console.log(dayNumber);
 
 
 //form membership
