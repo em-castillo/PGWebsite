@@ -209,6 +209,12 @@ div.iframe iframe {
   height: auto;
 }
 
+#lastUpdated {
+  color: rgb(247, 240, 240);
+  text-align: center;
+  display: block;
+}
+
 /* ---------------------------TABLET--------------------------- */
 @media only screen and (min-width: 35rem) {
   section.directory {

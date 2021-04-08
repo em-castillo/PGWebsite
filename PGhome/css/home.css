@@ -259,6 +259,12 @@ footer {
   clear: both;
 }
 
+#lastUpdated {
+  color: rgb(247, 240, 240);
+  text-align: center;
+  display: block;
+}
+
 /* --------------------------Tablet--------------------------*/
 
 @media only screen and (min-width: 35rem) {
