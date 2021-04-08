@@ -138,13 +138,13 @@ div#message {
   text-align: center;
 }
 
-section.ads {
+div.ads {
   padding: 1rem 20%;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-section.ads img {
+div.ads img {
   width: 100%;
   height: auto;
   padding: 0.3rem 0;
@@ -187,10 +187,10 @@ section.forecast div h4 {
 }
 
 div#box {
-  margin-left: -45px;
+  margin-left: 0.5rem;
 }
 
-section.images {
+div.images {
   padding: 1.5rem 0;
   display: grid;
   grid-template-columns: 1fr;
@@ -198,7 +198,7 @@ section.images {
   justify-items: center;
 }
 
-section.images img {
+div.images img {
   width: 100%;
   height: auto;
 }
@@ -316,7 +316,7 @@ footer {
     padding: 0 0;
   }
 
-  section.ads {
+  div.ads {
     padding: 1rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -324,7 +324,7 @@ footer {
     grid-gap: 1rem;
   }
 
-  section.ads img {
+  div.ads img {
     width: 100%;
     height: auto;
   }
@@ -363,12 +363,12 @@ footer {
     font-size: 18px;
   }
 
-  section.images {
+  div.images {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  section.images img {
+  div.images img {
     width: 100%;
     height: auto;
   }
