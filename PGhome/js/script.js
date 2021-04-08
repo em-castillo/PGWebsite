@@ -46,8 +46,8 @@ const today = new Date();
       }
       
 //font
-      WebFont.load({
-        google: {
-          families: ["Opens Sans", "Prata"],
+WebFont.load({
+  google: {
+    families: ["Opens Sans", "Prata"],
   },
 });
