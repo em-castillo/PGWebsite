@@ -44,18 +44,4 @@ fetch(requestURL)
     
   });
 
-  function gridView() {
-
-    document.getElementById("swap").classList.add("directoryGrid");
-    document.getElementById("swap").classList.remove("directoryList");
-    document.getElementById("grid").classList.add("currentView");
-    document.getElementById("list").classList.remove("currentView");
-}
-
-  function listView() {
-
-    document.getElementById("swap").classList.remove("directoryGrid");
-    document.getElementById("swap").classList.add("directoryList");
-    document.getElementById("grid").classList.remove("currentView");
-    document.getElementById("list").classList.add("currentView");
-}
+  
