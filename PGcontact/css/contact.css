@@ -206,7 +206,7 @@ div.iframe {
 }
 div.iframe iframe {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 #lastUpdated {
