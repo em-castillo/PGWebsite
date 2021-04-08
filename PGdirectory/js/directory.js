@@ -44,4 +44,20 @@ fetch(requestURL)
     
   });
 
+  function gridView() {
+    let show = document.getElementById("changeView");
+    let unbutton = document.getElementById("listBtn");
+    let button = document.getElementById("gridBtn");
+    show.setAttribute("class", "cards grid");
+    button.setAttribute("class", "joinBtn activebutton");
+    unbutton.setAttribute("class", "joinBtn");
+  }
+  function listView() {
+    let show = document.getElementById("changeView");
+    let button = document.getElementById("listBtn");
+    let unbutton = document.getElementById("gridBtn");
+    show.setAttribute("class", "cards list");
+    button.setAttribute("class", "joinBtn activebutton");
+    unbutton.setAttribute("class", "joinBtn");
+  }
   
