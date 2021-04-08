@@ -35,13 +35,13 @@ fetch(apiURL)
 //   .then((weatherInfo) => {
 //     console.log(weatherInfo);
     
-    let mylist = weatherInfo.list;
+    // let mylist = weatherInfo.list;
     let forecastDayNumber = todayDayNumber;
 
-      for (i = 0; i < mylist.length; i++){
+      for (i = 0; i < 3; i++){
 
-        let time = mylist[i].dt_txt;
-        if (time.includes('18:00:00')) {
+        // let time = mylist[i].dt_txt;
+        // if (time.includes('18:00:00')) {
 
           forecastDayNumber += 1;
           if (forecastDayNumber === 7){forecastDayNumber = 0;}
@@ -66,8 +66,6 @@ fetch(apiURL)
           document.getElementById('threeDays').appendChild(theDay);
   
       }
-    }
-
- }); //end of "then" fat arrow function
+    }); //end of "then" fat arrow function
 
  
