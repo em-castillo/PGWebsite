@@ -212,7 +212,7 @@ textarea {
 }
 
 .memberBox ul {
-  margin-top: 0;
+  margin: 1rem;
   padding-top: 0;
   color: black;
   line-height: 20px;

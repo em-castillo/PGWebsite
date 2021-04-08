@@ -200,7 +200,12 @@ textarea {
 }
 
 div.iframe {
+  margin-left: 0;
   padding: 1.3rem 5%;
+}
+div.iframe iframe {
+  width: 100%;
+  height: auto;
 }
 
 /* ---------------------------TABLET--------------------------- */
