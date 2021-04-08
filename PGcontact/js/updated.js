@@ -1,5 +1,3 @@
-let date = new Date(document.lastModified);
-let year =  date.getFullYear();
-document.getElementById("actualYear").textContent = year;
+let date = new Date(document.lastModified)
 
 document.getElementById("lastUpdated").textContent = "Last Updated: " + document.lastModified;
