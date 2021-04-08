@@ -421,6 +421,10 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  div#threeDays img {
+    width: 25%;
+  }
+
   nav ul {
     list-style: none;
     text-align: center;
